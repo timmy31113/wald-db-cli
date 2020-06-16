@@ -11,4 +11,8 @@ class AppTest {
 		assertTrue(true);
 	}
 
+	@Test
+	void realTest() {
+		App.main(null);
+	}
 }
