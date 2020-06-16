@@ -10,9 +10,4 @@ class AppTest {
 	void test() {
 		assertTrue(true);
 	}
-
-	@Test
-	void realTest() {
-		App.main(null);
-	}
 }
