@@ -237,7 +237,7 @@ public class CommandLineInterface {
 					break;
 				case "p":
 				case "v":
-					if (rs.isFirst()) {
+					if (rs.isFirst() || rs.isBeforeFirst()) {
 						rs.afterLast();
 						System.out.println("Vorderstes Element, springe zum Ende…");
 					}
